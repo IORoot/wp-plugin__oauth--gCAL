@@ -1,0 +1,12 @@
+.andyp-oauth__button-gcal.enabled {
+    background: #E34F65;
+    color: #fff;
+    opacity: 0.5;
+}
+.andyp-oauth__button-gcal--trash {
+    line-height: 14px !important;
+    opacity: 0;
+}
+.andyp-oauth__button-gcal--trash.enabled {
+    opacity: 1;
+}
