@@ -3,7 +3,7 @@
  * @wordpress-plugin
  * Plugin Name:       _ANDYP - ACF - OAUTH for Google Calendar
  * Plugin URI:        http://londonparkour.com
- * Description:       <strong>🔌PLUGIN</strong> | <em>ANDYP > Universal Exporter</em> | oAuth for Google Calendar
+ * Description:       <strong>🔌PLUGIN</strong> | ACF oAuth for Google Calendar
  * Version:           1.0.0
  * Author:            Andy Pearson
  * Author URI:        https://londonparkour.com
