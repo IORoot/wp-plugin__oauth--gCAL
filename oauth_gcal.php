@@ -10,6 +10,8 @@
  * Domain Path:       /languages
  */
 
+define( 'ANDYP_GCALOAUTH_PATH', __DIR__ );
+define( 'ANDYP_GCALOAUTH_URL', plugins_url( '/', __FILE__ ) );
 define( 'GCAL_GOOGLE_APPLICATION_CREDENTIALS', __DIR__.'/client_secret.json');
 define( 'GCAL_GOOGLE_APPLICATION_SCOPE',       "https://www.googleapis.com/auth/calendar");
 define( 'GCAL_GOOGLE_TRANSIENT_NAME',          "GCAL_OAUTH_REFRESH_TOKEN");
@@ -30,4 +32,6 @@ require __DIR__.'/vendor/autoload.php';
 // ┌─────────────────────────────────────────────────────────────────────────┐
 // │                                Initialise                               │
 // └─────────────────────────────────────────────────────────────────────────┘
-new AndyP\oauth\gcal\gcal;
+if (file_exists(ANDYP_GCALOAUTH_PATH. '/client_secret.json')) {
+    new AndyP\oauth\gcal\gcal;
+}
