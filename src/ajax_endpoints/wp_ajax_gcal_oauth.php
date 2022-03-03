@@ -68,7 +68,7 @@ class oauth_callback
 
         $this->refresh_token = $this->client->getRefreshToken();
 
-        set_transient( GCAL_GOOGLE_TRANSIENT_NAME, $this->refresh_token, WEEK_IN_SECONDS );
+        set_transient( GCAL_GOOGLE_TRANSIENT_NAME, $this->refresh_token, YEAR_IN_SECONDS );
 
     }
 }
