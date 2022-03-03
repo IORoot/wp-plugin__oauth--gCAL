@@ -67,7 +67,7 @@ public function get_events()
 ## Changelog
 
 - v 0.1.1
-Updated to change transient length from one week to one year to stop logging out!
+Updated to change transient length to 0.
 
 - v 0.1.0 
 Initial
